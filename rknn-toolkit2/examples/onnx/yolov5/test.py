@@ -13,7 +13,7 @@ RKNN_MODEL = 'yolov5s_relu.rknn'
 IMG_PATH = './bus.jpg'
 DATASET = './dataset.txt'
 
-QUANTIZE_ON = True
+QUANTIZE_ON = False # True
 
 OBJ_THRESH = 0.25
 NMS_THRESH = 0.45
